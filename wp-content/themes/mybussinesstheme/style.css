@@ -1,0 +1,246 @@
+/*
+Theme Name: mybussinesstheme
+Theme URI: http://rplance.com/themes/mybussinesstheme
+Author: cannelflow
+Author URI: http://rplance.com/
+Description: The 2017 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: mybussinesstheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+  font-size:15px;
+  color:#7a7a7a;
+  line-height:1.7em;
+  font-family:'Roboto Slab', serif;
+}
+
+a {
+  color:#0faf97;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color:#0faf97;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color:#fff;
+  background-color:#0faf97;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #4582ec;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav.navbar.navbar-default {
+  border-color:transparent;
+  background-color:#fff;
+}
+
+#jumbotron a.btn.btn-primary {
+  background-color:#0faf97;
+  color:#fff;
+  padding:14px;
+  border-color:#fff;
+}
+
+#jumbotron a.btn.btn-primary:hover {
+  background-color:#fff;
+  color:#0faf97;
+  border-color:#0faf97;
+}
+
+#jumbotron h1 {
+    margin-bottom: 20px;
+}
+
+#jumbotron p a {
+    margin-top:20px;
+}
+
+.jumbotron .container {
+    max-width: 950px;
+}
+
+section#jumbotron .jumbotron {
+  background:url('../../assets/img/banner.jpg') no-repeat;
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+  padding-top:90px;
+  padding-bottom:90px;
+}
+
+@media (max-width:767px) {
+  section#jumbotron .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+
+#sec-1 div.block {
+  text-align:center;
+  border:1px solid #ccc;
+  padding:20px;
+}
+
+#sec-1 i.fa {
+  margin-top:10px;
+  color:#0faf97;
+}
+
+section#jumbotron {
+  margin-bottom:20px;
+}
+
+section#sec-1 {
+  margin-bottom:20px;
+}
+
+@media (max-width:991px) {
+  #sec-1 div.block {
+    margin-bottom:20px;
+  }
+}
+
+section#sec-2 {
+  background-color:#0faf97;
+  color:#fff;
+  padding-top:30px;
+  padding-bottom:30px;
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  section#sec-2 {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+
+section#sec-3 {
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+#footer div.col-lg-4 {
+  padding-bottom:20px;
+}
+
+section#footer {
+  margin-top:40px;
+  margin-top:40px;
+}
+
+section#sec-11 {
+  background-color:#0faf97;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+section#sec-111 {
+  background-color:#0faf97;
+  padding-top:17px;
+  padding-bottom:10px;
+  color: #fff;
+}
+section#article {
+  margin-top:40px;
+  margin-bottom:40px;
+  text-align:justify;
+}
+
+#article a.btn.btn-primary-reverse.btn-block {
+  border-color:#0faf97;
+  color:#0faf97;
+  margin-bottom:20px;
+}
+
+#article a.btn.btn-primary-reverse.btn-block:hover {
+  border-color:#0faf97;
+  color:black;
+  background-color:#0faf97;
+}
+
+#article aside a {
+  color:#0faf97;
+}
+
+article.blog {
+  border-bottom:1px #ccc solid;
+  margin-bottom:30px;
+  padding-bottom:30px;
+}
+
+#article .blog-meta li {
+  float:left;
+  padding-right:20px;
+  list-style:none;
+}
+
+#article ul.blog-meta {
+  border-bottom:1px solid #ccc;
+  border-top:1px solid #ccc;
+  overflow:hidden;
+  padding:10px;
+}
+
+.blog-meta p {
+  text-align:justify;
+}
+
+div.blog-img {
+  margin-bottom:15px;
+}
+
+.blog-meta-detail {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.blog-meta-title {
+  margin-top: -7px;
+}
+
+.btn-primary {
+    background-color: rgb(15, 175, 151);
+    border-color: rgb(15, 175, 151);
+}
+
+.panel-body ul>li {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 1px 1px 1px 10px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+.sidebar-widget .panel-heading {
+  background-color: rgb(15, 175, 151);
+}
+
+.panel {
+  border:none;
+}
+
+.panel-body {
+    border: 1px solid rgb(15, 175, 151);
+    margin-bottom: 20px;
+}
+
+article.blog {
+  padding: 15px;
+}
+
